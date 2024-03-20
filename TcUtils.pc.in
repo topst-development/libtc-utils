@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: Telechips Utility
+Description: Telechips Utility Library for Linux AVN
+Version: 1.0.0
+Libs: -L${libdir} -ltcutils 
+Libs.private: -ldbus-1
+Cflags: -I${includedir}
+
